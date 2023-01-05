@@ -1,0 +1,30 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "author": "thibmaek",
+  "commands": [
+    {
+      "description": "Select different music tags and get the correct tagged string for the Comments field in an IDv3 tag",
+      "mode": "view",
+      "name": "index",
+      "subtitle": "Apply a selection of tags",
+      "title": "Tags"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.45.2"
+  },
+  "description": "Select different music tags and get the correct tagged string for the Comments field in an IDv3 tag",
+  "icon": "icon.png",
+  "license": "MIT",
+  "name": "itunes-tags",
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint"
+  },
+  "title": "iTunes Tags",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
